@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var contador = 1;
+
+    while(contador <= 100) {
+        imprimir(contador);
+        contador = contador + 1;
+    }
+    imprimir("FIN");
+</script>
